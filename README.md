@@ -51,14 +51,15 @@ The following machine learning algorithms are implemented and evaluated in this 
 ---
 
 ## Results
-
 The performance of each algorithm is summarized below:
-Algorithm	Accuracy	Jaccard Score	F1 Score	Log Loss	R² Score (Linear Regression)
-Linear Regression	-	-	-	-	0.37
-K-Nearest Neighbors (KNN)	0.824	0.417	0.588	-	-
-Decision Trees	0.760	0.732	0.845	-	-
-Logistic Regression	0.829	0.793	0.669	6.163	-
-Support Vector Machines (SVM)	0.719	0.517	0.602	-	-
+
+| **Algorithm**           | **Accuracy** | **Jaccard Score** | **F1 Score** | **Log Loss** | **R² Score** (Linear Regression) |
+|--------------------------|--------------|-------------------|--------------|--------------|----------------------------------|
+| Linear Regression        | -            | -                 | -            | -            | 0.37                            |
+| K-Nearest Neighbors (KNN)| 0.824        | 0.417             | 0.588        | -            | -                                |
+| Decision Trees           | 0.760        | 0.732             | 0.845        | -            | -                                |
+| Logistic Regression      | 0.829        | 0.793             | 0.669        | 6.163        | -                                |
+| Support Vector Machines (SVM) | 0.719    | 0.517             | 0.602        | -            | -                                |
 
 ---
 
